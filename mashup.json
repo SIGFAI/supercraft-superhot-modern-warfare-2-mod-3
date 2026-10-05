@@ -1,0 +1,227 @@
+{
+  "id": "sigf/supercraft-superhot-modern-warfare-2-mod-3",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 3: SUPERHOT × Modern Warfare 2",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Modern Warfare 2 with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "mw2",
+      "role": "guest",
+      "label": "Modern Warfare 2"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-modern-warfare-2-mod-3.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/dirt.png",
+              "sha256": "1a692430204e78238606d5cb15e5665aa2a19462b707ba5c701a2ba8563bf9aa"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/fire.png",
+              "sha256": "f676c0bbc067a28d0e36d28fd9b1289e23e6cdd9796de4f552dec5404aaf9fcd"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flare.png",
+              "sha256": "f82a583f5f098505497247af3b40bbd629b48359ece73ceaaf5a244bf6891dc9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flash.png",
+              "sha256": "ac8713e8fbadeb35dd2432aceaca929aa43c4577aaf931ef33e5b61d5469da37"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/ring.png",
+              "sha256": "efa31ac08a9343dabe8915224d0014097bb036e83d115ab1d6c2658079425c72"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/smoke.png",
+              "sha256": "d48bd16c2c175063efbc19242d5817a104a715c5ae5a2203c390ca650552af26"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/smoke2.png",
+              "sha256": "349049d96949b874a4520cc2ff0ac8024b298f4c15f47a8f08677aaa1e894542"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/spark.png",
+              "sha256": "d8a88cd74c6382ed568f3fb873613e8b07024942d401d16ea55ebafd40e8b38b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/icons/care.png",
+              "sha256": "1ca90b6d28db1e526ad5a66f7e9aca6f6b9a4936e35688c1ec9191b1830a8b1e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/icons/nuke.png",
+              "sha256": "660f76c9039d8156de508ad107c3a285dd9f15441fcd9e4172520e51f2d732c8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/icons/predator.png",
+              "sha256": "11e58ecc8acbbb1b10e51c1964848f295aef4070de99f0a5504dab3c4024f79e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/icons/skull.png",
+              "sha256": "15c7bbbf51b58484a3fa904df1058b68c3ac07322d208122c686f896aaa1ffae"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/icons/uav.png",
+              "sha256": "3824c5e15941d2f77772d6eee1b3c85f224e31649cd892bbfa64d755fc46a4c9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/beep.wav",
+              "sha256": "38d7e38aa8b2dfd2c545746c08dd8895508651e169879f0f8dfacce5dd13c37e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/crate_land.wav",
+              "sha256": "67e2c5e906859e4f9822ec615152f99e1e20e574a8fcc73bcb89383b96b61d7b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/explosion.wav",
+              "sha256": "1863e9e0e707f6acb5dd0d77ff1ce4aec2c831d8dbaa7081830541e949dbc97b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/heli_loop.wav",
+              "sha256": "ab12dfcf1a72ebb430a83693fdd7aecab813c39a4a060643e2760d5e6357ebe1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/hitmarker.wav",
+              "sha256": "51d5c4a5bc0fd792fcfdf27243d662fbd2b4f747ba0611b313226e8eaa933e28"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/jet_flyby.wav",
+              "sha256": "4b64a29ec44f3639f6babe8ae642fba259c96576d56d1f2317b3311dd8a8da17"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/missile_launch.wav",
+              "sha256": "75057ce7d959ba1f0a63264b6a7f736d086269743c6c83504290f926495db1f6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/missile_loop.wav",
+              "sha256": "05ab521d1b7d07a082a70ae2432cf440da6602dd235918e31716284d5ad76326"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/nuke.wav",
+              "sha256": "5dd32b2ea284057d4a4f0cdedd9cd517c7825839a944e0dc79e04d48887b541b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/radio.wav",
+              "sha256": "32c795a46c83fd3a56d6212d55ce2975b03a19c4e738f00ae745d389506caee9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/siren.wav",
+              "sha256": "3c5a08991db28eb87d4f50857408f70cc836f9602bf83dd138227a842ebcc0f3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/smoke_pop.wav",
+              "sha256": "5e60adea5e4accab09f14903cc7fdf581009193a63b0a6a8a35789a42f11e75c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/static.wav",
+              "sha256": "015f61ba31d03f25a11088989abf15fd4dd11dba9ce69588d025f24b8ae73624"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/streak.wav",
+              "sha256": "3525c8bc61983b880095f5d982631b1fcf8f4e2a76e28d7635c5add115c8231b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/victory.wav",
+              "sha256": "66d0727f5287d5e5d3a32ba6f555184a1229de33e6ede3fec9d1f35b09338ba8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_care.wav",
+              "sha256": "f334e9b81c06daac3df568d90c31311b589b8cd1f7447b79c086eb670334632f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_carekill.wav",
+              "sha256": "519e0d948579a9d1a54a4d09e046f9ab7db36e26d1a601b69cd8e8c8e5db48c8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_intro.wav",
+              "sha256": "c58518d19979d563e4512e1f974c6c631efb3afac52eb5ae3fa8c7d2e0c14c96"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_move.wav",
+              "sha256": "a27cdf3102073503890fc6b381c6b8801935876d5c025b0a00a94ddb311880d3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_nuke.wav",
+              "sha256": "3c1a40b864628a391b9fac338757de4d43b5b163bebfada43feed8979ed6ab10"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_predator.wav",
+              "sha256": "b576f500b2bfafc6d2b3fb2c5f755a4f252f4244f237e581165f60cc04b94b96"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_uav.wav",
+              "sha256": "40d79bdd0ed62c91b6f416dfda67d3917f69396c9233ef0b03cab6ab7a3b6b00"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/vo_victory.wav",
+              "sha256": "129b0b5b2af876d0c219f0bab6955cddfffe449d8d43c97b457d1962cad5e3b4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/whoosh.wav",
+              "sha256": "c8f03406173af86ca378a8e32c89aabb26f4662d378d71d7b69568fa42ff9365"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "0e60cac8a2233032ee2d05be400634940fff248b1e8ae1b1b09da72d7fd6725a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "fc224bf04eb6cac2fb6636ac0ec0f8697e35654c83659ca1923e839aacd5f71f"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-modern-warfare-2-mod-3/releases/download/v1.0.0/supercraft-superhot-modern-warfare-2-mod-3.zip",
+          "sha256": "e1555e323947f4aefa8116f01124506ae582c68addb6e29de8a48ccc36452e9c",
+          "size": 4257119
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-modern-warfare-2-mod-3.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-modern-warfare-2-mod-3/releases/download/v1.0.0/supercraft-superhot-modern-warfare-2-mod-3.zip",
+      "sha256": "e1555e323947f4aefa8116f01124506ae582c68addb6e29de8a48ccc36452e9c",
+      "size": 4257119
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-modern-warfare-2-mod-3",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:27:42.787Z"
+}
