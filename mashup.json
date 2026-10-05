@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SUPERCRAFT, mod 3: SUPERHOT × Modern Warfare 2",
   "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Modern Warfare 2 with a funny twist of your own.",
+  "how_to_play": [
+    "Win the 1v1 on Rust against waves of crystal men and chain kills into killstreaks.",
+    "Press 4 for UAV (3 kills), 5 for Care Package (5), 6 for Predator Missile (7) and 7 for Tactical Nuke (10).",
+    "Steer the Predator Missile with the mouse and hold the left mouse button to boost.",
+    "Time moves only when you move, the missile included."
+  ],
   "kind": "mashup",
   "games": [
     {
